@@ -1,5 +1,9 @@
 # Grok Imagine 下载器 v2.0
 
+[![Greasy Fork](https://img.shields.io/greasyfork/v/572875?label=Greasy%20Fork)](https://greasyfork.org/zh-CN/scripts/572875-grok-imagine-downloader)
+[![GitHub](https://img.shields.io/github/v/release/uucz/grok-imagine-downloader?label=GitHub)](https://github.com/uucz/grok-imagine-downloader)
+[![License](https://img.shields.io/github/license/uucz/grok-imagine-downloader)](LICENSE)
+
 > 在 `grok.com/imagine/saved` 画廊页面，一键同步下载视频/图片 + 提示词 TXT 文件
 
 ## ✨ 功能
@@ -13,11 +17,15 @@
 
 ## 📦 安装
 
+### 方式一：Greasy Fork（推荐）
 1. 安装 [Tampermonkey](https://www.tampermonkey.net/) 浏览器扩展
-2. 打开 Tampermonkey 管理面板 → **创建新脚本**
-3. 删除模板内容，粘贴 `grok-imagine-downloader.user.js` 的全部内容
-4. `Cmd+S` / `Ctrl+S` 保存
-5. 访问 `grok.com/imagine/saved` 即可使用
+2. 👉 **[点击此处一键安装脚本](https://greasyfork.org/zh-CN/scripts/572875-grok-imagine-downloader)**
+
+### 方式二：GitHub 直装
+1. 安装 [Tampermonkey](https://www.tampermonkey.net/) 浏览器扩展
+2. 👉 **[点击此处从 GitHub 安装](https://raw.githubusercontent.com/uucz/grok-imagine-downloader/main/grok-imagine-downloader.user.js)**
+
+安装后访问 `grok.com/imagine/saved` 即可使用。
 
 ## 🛠 技术原理
 
