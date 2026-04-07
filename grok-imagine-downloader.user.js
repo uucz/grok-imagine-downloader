@@ -1,11 +1,18 @@
 // ==UserScript==
-// @name         Grok Imagine 下载 + 提示词保存
-// @namespace    https://github.com/grok-dl
-// @version      2.0
-// @description  在 Grok Imagine 画廊页面，一键同步下载视频/图片及其对应的提示词 TXT 文件（支持批量）
+// @name         Grok Imagine Downloader
+// @name:zh-CN   Grok Imagine 下载 + 提示词保存
+// @namespace    https://github.com/uucz/grok-imagine-downloader
+// @version      2.0.0
+// @description  Download Grok Imagine media (videos/images) with prompts saved as TXT files. Supports batch download.
+// @description:zh-CN  在 Grok Imagine 画廊页面，一键同步下载视频/图片及其对应的提示词 TXT 文件（支持批量）
 // @author       Tayer
+// @license      MIT
 // @match        https://grok.com/*
 // @icon         https://grok.com/favicon.ico
+// @homepageURL  https://github.com/uucz/grok-imagine-downloader
+// @supportURL   https://github.com/uucz/grok-imagine-downloader/issues
+// @downloadURL  https://raw.githubusercontent.com/uucz/grok-imagine-downloader/main/grok-imagine-downloader.user.js
+// @updateURL    https://raw.githubusercontent.com/uucz/grok-imagine-downloader/main/grok-imagine-downloader.user.js
 // @grant        none
 // @run-at       document-idle
 // ==/UserScript==
